@@ -72,7 +72,8 @@ public class Product implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Product product = (Product) o;
-        return Objects.equals(id, product.id) && Objects.equals(name, product.name) && Objects.equals(description, product.description) && Objects.equals(imageUri, product.imageUri);
+        return Objects.equals(id, product.id) && Objects.equals(name, product.name) && Objects.equals(description,
+                product.description) && Objects.equals(imageUri, product.imageUri);
     }
 
     @Override
