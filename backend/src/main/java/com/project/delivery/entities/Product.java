@@ -1,5 +1,7 @@
 package com.project.delivery.entities;
 
+import org.hibernate.validator.constraints.UniqueElements;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
